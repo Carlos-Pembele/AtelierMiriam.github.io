@@ -1,0 +1,1009 @@
+*{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0; 
+    width: 100%;
+    height: 99vh; 
+}
+header{
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .2);
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    height: 60px;
+    width: 100%;
+}
+.entrar{
+    background-color: white;
+    color: orange;
+    border-radius: 8px;
+}
+.entrar a{
+    color: orange;
+    padding: 10px 20px;
+}
+header h2{
+    font-family: "Dancing Script", cursive;
+    font-style: normal;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 20px;
+    cursor: pointer;
+    color: #fdfeff;
+}
+header h2 a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    align-items: center;
+}
+ul li{
+    margin-right: 3rem;
+    list-style: none;
+    font-size: 15px;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.section_One{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: radial-gradient(#fff,#c7c7c7);
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    margin-top: 60px;
+}
+.article_One{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 50%;
+    margin-left: 2rem;
+    padding: 2rem;
+}
+.article_One h2{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+.article_One p{
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+.article_two{
+    flex-basis: 40%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 2rem;
+}
+.article_two img{
+    width: 70%;
+}
+button{
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+    padding: 1rem;
+    width: 20%;
+    border-radius: 999px;
+    color: white;
+    font-size: 0.8rem;
+    transition: all .8s;
+}
+button:hover{
+    background-color: rgb(221, 144, 1);
+}
+
+.section_two{
+    width: 96%;
+    margin: 0 auto;
+}
+.breve_descri{
+    line-height: 1.2rem;
+    margin-bottom: 1rem;
+    font-weight: 400;   
+}
+.section_two h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-decoration-color: orange;
+}
+
+
+.section_three{
+    margin: 0 auto;
+    width: 96%;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin-top: 20px;
+    column-gap: 1.5rem;
+    row-gap: 2rem;
+    justify-items: center;
+}
+.produto{
+    width: 250px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .2);
+    transition: .5s;
+}
+.produto:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+.produto img{
+    width: 100%;
+    background-color: orange;
+    height: 300px;
+    border-radius: 10px;
+}
+.produto .marca{
+    color: gray;
+    font-weight: bold;
+}
+.produto .modelo{
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: -10px;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.produto .decricao{
+    color: rgb(53, 53, 53);
+    font-weight: 500;
+}
+.produto .money{
+    background-color: orange;
+    width: 40%;
+    padding: 10px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
+}
+.ElementCompra{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.ElementCompra img{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    padding: 5px;
+    transition: 0.5s;
+}
+.ElementCompra img:hover{
+    background-color: orange;
+}
+
+
+footer{
+    width: 100%;
+    background-color: #d3dce2;
+    display: flex;
+    flex-direction: column-reverse;
+}
+footer .linkes_developed{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.linkes_developed img{
+    width: 30px;
+    height: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: .5s;
+}
+.linkes_developed img:hover{
+    transform: translateY(-10px);
+
+    cursor: pointer;
+}
+footer .conteudo_footer{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+footer .paragraph{
+    font-size: 20px;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-weight: bold;
+    font-style: normal;
+}
+.conteudo_footer .primeiro_lado{
+    width: 35%;
+}
+.primeiro_lado h2{
+    font-family: "Dancing Script", cursive;
+    font-weight: bold;
+    font-style: normal;
+
+}
+.achou{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.achou input{
+    width: 70%;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    margin-right: 20px;
+}
+.achou button{
+    background-color: orange;
+    border-radius: 8px;
+    padding: 10px;
+}
+.conteudo_footer .segundo_lado{
+    width: 20%;
+}
+.segundo_lado p a{
+    text-decoration: none;
+    padding-bottom: 5px;
+    color: black;
+    transition: 0.5s;
+}
+.conteudo_footer .terceiro_lado{
+    width: 20%;
+}
+.segundo_lado p a:hover{
+    color: orange;
+}
+.terceiro_lado p a{
+    text-decoration: none;
+    padding-bottom: 5px;
+    color: black;
+    transition: 0.5s;
+}
+.terceiro_lado p a:hover{
+    color: orange;
+}
+.conteudo_footer .quarto_lado{
+    width: 25%;
+}
+.quarto_lado .carton{
+    display: flex;
+    align-items: center;
+}
+.carton img{
+    width: 60px;
+    transition: 0.5s;
+}
+.carton img:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+.down{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    width: 40%;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.down img{
+    width: 15px;
+}
+
+.Input_Search{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #d3dce2;
+    padding: 7px 25px;
+    border-radius: 20px;
+}
+
+.Input_Search input{
+    background-color: transparent;
+    border: transparent;
+}
+.Input_Search input[type="text"]{
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+.Input_Search input[type="text"]:focus-visible{
+    border-color: transparent;
+}
+
+.componenteInicial{
+    margin-bottom: 20px; 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding: 10px;  
+    column-gap: 3rem;
+    row-gap: 4rem;
+    align-items: center; 
+    justify-content: space-between;
+    margin: auto;
+}
+.subtitle{
+    font-family: "Dancing Script", cursive;
+    font-style: normal;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+}
+
+
+/*Colocando a mão na responsividade do wabsite*/
+
+/*  Responsividade para tablets! */
+@media screen and (min-width:767px) and (max-width:1023px){
+ header{
+    display: none;
+ }
+ .header-phone{
+    display: none;
+ }
+ .Navbartop{
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .2);
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    height: 90px;
+    width: 100%;
+ }
+ .Navbartop h2{
+    font-family: "Dancing Script", cursive;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+    cursor: pointer;
+    color: #fdfeff;
+ }
+ .Navbartop h2 a{
+    text-decoration: none;
+    color: black;
+}
+
+ .btn_lateral{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    width: 50%;
+ }
+ .sine{
+    margin-right: 8px;
+ }
+ .entrar{
+    padding: 5px;
+    font-size: 25px;
+ }
+ .entrar a{
+    text-decoration: none;
+ }
+ .Navbartop ul{
+    background-color: orange;
+    padding: 10px 30px;
+    width: 100%;
+    position: fixed;
+    top: 89%;
+    z-index: 1000;
+    box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+ .Navbartop ul li{
+    display: flex;
+ }
+ .conteudo{
+    position: relative;
+    width: 100%;
+ }
+ #midle{
+    width: 50px;
+    height: 60px;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+ }
+ .med{
+    padding-bottom: 15px;
+ }
+
+ .section_One{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: radial-gradient(#fff,#c7c7c7);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    margin-top: 60px;
+}
+.article_One{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 50%;
+    margin-left: 2rem;
+    padding: 2rem;
+}
+.article_One h2{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+.article_One p{
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+.article_two{
+    flex-basis: 40%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 2rem;
+}
+.article_two img{
+    width: 100%;
+}
+button{
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+    padding: 1rem;
+    width: 30%;
+    border-radius: 999px;
+    color: white;
+    font-size: 0.8rem;
+    transition: all .8s;
+}
+.componenteInicial{
+    width: 96%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding: 10px;  
+    column-gap: 3rem;
+    row-gap: 4rem;
+    justify-items: center;
+}
+.subtitle{
+    font-family: "Dancing Script", cursive;
+    font-style: normal;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+}
+.featurette-divider {
+    margin: 5rem 0; 
+  }
+
+
+footer{
+    width: 100%;
+    background-color: #d3dce2;
+    display: flex;
+    flex-direction: column-reverse;
+}
+footer .linkes_developed{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+.linkes_developed img{
+    width: 30px;
+    height: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: .5s;
+}
+.linkes_developed img:hover{
+    transform: translateY(-10px);
+
+    cursor: pointer;
+}
+footer .conteudo_footer{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+footer .paragraph{
+    font-size: 20px;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-weight: bold;
+    font-style: normal;
+}
+.conteudo_footer .primeiro_lado{
+    width: 35%;
+}
+.primeiro_lado h2{
+    font-family: "Dancing Script", cursive;
+    font-weight: bold;
+    font-style: normal;
+
+}
+.achou{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.achou input{
+    width: 70%;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    margin-right: 20px;
+}
+.achou button{
+    background-color: orange;
+    border-radius: 8px;
+    padding: 10px;
+}
+.conteudo_footer .segundo_lado{
+    width: 20%;
+}
+.segundo_lado p a{
+    text-decoration: none;
+    padding-bottom: 5px;
+    color: black;
+    transition: 0.5s;
+}
+.conteudo_footer .terceiro_lado{
+    width: 20%;
+}
+.segundo_lado p a:hover{
+    color: orange;
+}
+.terceiro_lado p a{
+    text-decoration: none;
+    padding-bottom: 5px;
+    color: black;
+    transition: 0.5s;
+}
+.terceiro_lado p a:hover{
+    color: orange;
+}
+.conteudo_footer .quarto_lado{
+    width: 25%;
+}
+.quarto_lado .carton{
+    display: flex;
+    align-items: center;
+}
+.carton img{
+    width: 50px;
+    transition: 0.5s;
+}
+.carton img:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+.down{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    width: 40%;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.down img{
+    width: 15px;
+}
+
+.Input_Search{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    background-color: #d3dce2;
+    padding: 10px 25px;
+    border-radius: 20px;
+    width: 100%;
+}
+.init{
+    display: flex;
+    flex-direction: column;
+}
+.init p{
+    margin-top: -2px;
+}
+
+.Input_Search input{
+    background-color: transparent;
+    border: transparent;
+}
+.Input_Search input[type="text"]{
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+.Input_Search input[type="text"]:focus-visible{
+    border-color: transparent;
+}
+}
+
+
+/* Responsividade para telas de celulares */
+@media screen and (min-width:300px) and (max-width:767px){
+    header{
+        display: none;
+    }
+    .Navbartop{
+        display: none;
+    }
+    header {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .logo h2{
+        font-family: "Dancing Script", cursive;
+        font-style: normal;
+        font-size: 22px;
+        font-weight: bold;
+        margin-left: 10px;
+        cursor: pointer;
+        color: #fdfeff;
+    }
+    .logo h2 a{
+        text-decoration: none;
+        color: white;
+    }
+    .header-phone{
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0px;
+        background-color: orange;
+        box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.1);
+    }
+    .header-phone ul li{
+       margin: 0px 2%;
+    }
+    .first{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .logo{
+        width: 32%;
+    }
+    .horizontal_Search{
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        margin-right: 10px;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .Input_Search{
+        width: 68%;
+    }
+    .Input_Search input{
+        width: 100%;
+    }
+    .entrar{
+        margin-left: 2%;
+        width: 10%;
+        padding: 5px 10px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .entrar a{
+        color: orange;
+        padding: 5px 0px;
+        text-decoration: none;
+    }
+    .second{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-link{
+        width: 100%;
+    }
+    .nav-link ul{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 0px;
+        justify-content: space-between;
+    }
+    .nav-link ul li{
+        width: 30%;
+        list-style: none;
+        transition: .5s;
+    }
+    .nav-link ul li:hover , .nav-link ul li a img:hover{
+        transform: translateY(-3px);
+        cursor: pointer;
+    }
+    .conteudo{
+        width: 100%;
+    }
+    .section_One{
+        position: relative;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       background-image: radial-gradient(#fff,#c7c7c7);
+       width: 100%;
+       height: 700px;
+       display: flex;
+       flex-direction: column-reverse;
+       margin-top: 100px;
+       padding-top: 110px;
+   }
+   .article_One{
+       display: flex;
+       position: relative;
+       flex-direction: column;
+       justify-content: center;
+       flex-basis: 50%;
+       margin: 0;
+       text-align: center;
+   }
+   .article_One h2{
+       font-size: 2rem;
+       margin-top: -50px;
+   }
+   .article_One p{
+       line-height: 1.5rem;
+   }
+   .article_two{
+       flex-basis: 50%;
+       align-items: center;
+       position: relative;
+       justify-content: center;
+       height: 350px;
+       margin-top: 100px;
+       display: flex;
+   }
+   .article_two img{
+       width: 100%;
+   }
+   button{
+       background-color: orange;
+       border: none;
+       cursor: pointer;
+       padding: 1rem;
+       width: 30%;
+       border-radius: 999px;
+       color: white;
+       font-size: 0.8rem;
+       transition: all .8s;
+   }
+    .componenteInicial{
+        width: 96%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        padding: 0px;  
+        column-gap: 3rem;
+        row-gap: 4rem;
+        position: relative;
+        justify-items: center;
+    }
+    .subtitle{
+        font-family: "Dancing Script", cursive;
+        font-style: normal;
+        font-size: 28px;
+        font-weight: bold;
+        cursor: pointer;
+        background-color: orange;
+        color: white;
+        border-radius: 10px;
+    }
+    footer{
+        width: 100%;
+        background-color: #d3dce2;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    footer .linkes_developed{
+        display: flex;
+        width: 90%;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .linkes_developed img{
+        width: 30px;
+        height: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        transition: .5s;
+    }
+    .linkes_developed img:hover{
+        transform: translateY(-10px);
+    
+        cursor: pointer;
+    }
+    footer .conteudo_footer{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    footer .paragraph{
+        font-size: 20px;
+        text-align: center;
+        font-family: "Dancing Script", cursive;
+        font-weight: bold;
+        font-style: normal;
+    }
+    .conteudo_footer .primeiro_lado{
+        width: 100%;
+        text-align: center;
+    }
+    .primeiro_lado h2{
+        font-family: "Dancing Script", cursive;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 25px;
+        text-align: left;
+    }
+    .achou{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .achou input{
+        width: 70%;
+        padding: 10px;
+        border-radius: 50px;
+        border: none;
+        margin-right: 20px;
+    }
+    .achou button{
+        background-color: orange;
+        border-radius: 8px;
+        padding: 10px;
+    }
+    .conteudo_footer .segundo_lado{
+        width: 100%;
+        text-align: center;
+    }
+    .segundo_lado p a{
+        text-decoration: none;
+        padding-bottom: 5px;
+        color: black;
+        transition: 0.5s;
+    }
+    .conteudo_footer .terceiro_lado{
+        width: 100%;
+        text-align: center;
+    }
+    .segundo_lado p a:hover{
+        color: orange;
+    }
+    .terceiro_lado p a{
+        text-decoration: none;
+        padding-bottom: 5px;
+        color: black;
+        transition: 0.5s;
+    }
+    .terceiro_lado p a:hover{
+        color: orange;
+    }
+    .conteudo_footer .quarto_lado{
+        width: 100%;
+        text-align: center;
+    }
+    .quarto_lado .carton{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .carton img{
+        width: 50px;
+        transition: 0.5s;
+    }
+    .carton img:hover{
+        cursor: pointer;
+        transform: translateY(-5px);
+    }
+    .down{
+        background-color: transparent;
+        color: black;
+        border: 1px solid black;
+        width: 40%;
+        margin-right: 10px;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+    .down img{
+        width: 15px;
+    }
+    
+    .Input_Search{
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+        background-color: #d3dce2;
+        padding: 10px 25px;
+        border-radius: 20px;
+        width: 100%;
+    }
+    .init{
+        display: flex;
+        flex-direction: column;
+    }
+    .init p{
+        margin-top: -2px;
+    }
+    
+    .Input_Search input{
+        background-color: transparent;
+        border: transparent;
+    }
+    .Input_Search input[type="text"]{
+        border: 1px solid transparent;
+        border-radius: 4px;
+        transition: border-color 0.3s;
+    }
+    .Input_Search input[type="text"]:focus-visible{
+        border-color: transparent;
+    }
+}
+
+
+/*Responsividade para telas Desktops */
+@media screen and (min-width:1024px){
+    header{
+        display: flex;
+    }
+    .Navbartop{
+        display: none;
+    }
+    .header-phone{
+        display: none;
+    }
+}

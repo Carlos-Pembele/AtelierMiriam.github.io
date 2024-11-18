@@ -1,0 +1,263 @@
+.Componentes{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.space_card_prod{
+    width: 94%;
+    margin: 10px auto;
+}
+.card_prod{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #d3dce2;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.card_prod .card_prod_Image{
+    width: 40%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+    border-radius: 10px;
+}
+.card_prod_Image img{
+    width: 50%;
+    height: 200px;
+    object-fit: contain;
+}
+.card_prod .card_prod_Description{
+    width: 55%;
+}
+.card_prod_Description{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.card_description_top{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#Delete{
+    width: 30px; 
+    height: 30px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    background-color: orange; 
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .1);
+}
+.DeleteX{
+    text-decoration: none; 
+    color: white;
+}
+.prod_description_init h2{
+    width: 100%;
+    height: 40px;
+    margin-top: -10px;
+    font-size: 30px;
+    font-family: "Dancing Script", cursive;
+    font-weight: bold;
+    font-style: normal;
+    overflow: hidden;
+    text-overflow: clip;  
+}
+.card_prod_Description .prod_description_second{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.prod_description_second_left{
+    text-align: center;
+    width: 50%;
+}
+.prod_description_second_left h3{
+    color: gray;
+}
+.prod_description_second_left h2{
+    margin-top: -20px;
+}
+.prod_description_second_right{
+    text-align: center;
+    width: 50%;
+}
+.min{
+    background-color: orange;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+.mai{
+    background-color: orange;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.inputQuant{
+    width: 50px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid orange;
+}
+.terminol_compra{
+    width: 80%;
+    margin: 0 auto;
+}
+.pedido{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.maneyGo{
+    width: 100%;
+}
+.maneyGo button{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+/* Responsividade para telas de Tablets */
+@media screen and (min-width:767px) and (max-width:1023px){
+    .Componentes{
+        margin-top: 120px;
+    }
+    .card_prod{
+        padding: 0px;
+    }
+    .card_description_top{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #Delete{ 
+        margin: 10px;
+    }
+    .prod_description_second{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .prod_description_second_left{
+        text-align: center;
+        width: 50%;
+    }
+    .prod_description_second_right{
+        text-align: center;
+        width: 40%;
+    }   
+}
+
+
+/* Responsividade para telas de celulares */
+@media screen and (min-width:300px) and (max-width:767px){
+    .Componentes{
+        margin-top: 150px;
+    }
+    .space_card_prod{
+        width: 94%;
+        margin: 10px auto;
+    }
+    .card_prod{
+        padding: 0px;
+    }
+    .card_prod .card_prod_Image{
+        width: 40%;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        background-color: orange;
+        border-radius: 10px;
+    }
+    .card_prod_Image img{
+        width: 50%;
+        height: 200px;
+        object-fit: contain;
+    }
+    .card_prod .card_prod_Description{
+        width: 55%;
+    }
+    .card_prod_Description{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .card_description_top{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #Delete{
+        margin: 10px;
+        padding: 4px 8px;
+    }
+    .esp_nome{
+        width: 90%; text-align: left; white-space: nowrap;
+    }
+    .prod_description_init h2{
+        font-size: 25px;  
+        font-weight: bold;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .card_prod_Description .prod_description_second{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .prod_description_second_left{
+        width: 100%;
+    }
+    .prod_description_second_left h4{
+        font-size: 15px;
+        color: gray;
+    }
+    .prod_description_second_left h2{
+        font-size: 17px;
+        margin-top: -20px;
+    }
+    .prod_description_second_right{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .pedido{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .pedido .res{
+        font-size: 13px;
+    }
+    .pedido .req{
+        font-size: 13px;
+    }
+       
+}

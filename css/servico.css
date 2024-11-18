@@ -1,0 +1,116 @@
+.service_conteudo{
+    width: 90%;
+    margin: 50px auto;
+}
+.service{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.service .service_esq{
+    width: 40%;
+}
+.service_esq img{
+    width: 70%;
+    margin-left: 15%;
+    height: 300px;
+}
+.service .service_dir{
+    width: 50%;
+}
+.service_dir h3{
+    font-size: 30px;
+    font-family: "Dancing Script", cursive;
+    font-weight: bold;
+    font-style: normal;
+}
+.service_dir p{
+    font-size: 20px;
+}
+
+.service_two{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between; 
+    align-items: center;  
+}
+.service_esq_two{
+    width: 40%;
+}
+.service_esq_two img{
+    width: 100%;
+    height: 300px;
+}
+.service_dir_two{
+    width: 50%;
+}
+.service_dir_two p{
+    font-size: 20px;
+}
+.service_dir_two h3{
+    font-size: 30px;
+    font-family: "Dancing Script", cursive;
+    font-weight: bold;
+    font-style: normal;   
+}
+
+
+/* Responsividade para telas de celulares */
+@media screen and (min-width:300px) and (max-width:767px){
+    .service{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .service .service_esq{
+        width: 100%;
+    }
+    .service_esq img{
+        width: 100%;
+        margin-left: 0;
+        height: 300px;
+    }
+    .service .service_dir{
+        width: 100%;
+        text-align: center;
+    }
+    .service_dir h3{
+        font-size: 30px;
+        font-family: "Dancing Script", cursive;
+        font-weight: bold;
+        font-style: normal;
+    }
+    .service_dir p{
+        font-size: 20px;
+    }
+    
+    .service_two{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .service_esq_two{
+        width: 100%;
+    }
+    .service_esq_two img{
+        width: 100%;
+        height: 300px;
+    }
+    .service_dir_two{
+        text-align: center;
+        width: 100%;
+    }
+    .service_dir_two p{
+        font-size: 20px;
+    }
+    .service_dir_two h3{
+        font-size: 30px;
+        font-family: "Dancing Script", cursive;
+        font-weight: bold;
+        font-style: normal;   
+    }   
+}

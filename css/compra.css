@@ -1,0 +1,150 @@
+.conteudo{
+    margin-top: 100px;
+}
+.escolha{
+    width: 96%;
+    margin: 0 auto;
+}
+.escolha h2{
+    font-family: "Dancing Script", cursive;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+.escolha p{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.escolha .escolhasDeprod{
+    background-color: orange;
+    border-radius: 8px;
+    width: 50%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+.escolhasDeprod .escolha1 select{
+    width: 150px;
+    border: 1px solid orange;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+.escolhasDeprod .escolha2 select{
+    width: 150px;
+    border: 1px solid orange;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+
+/* Responsividade para telas de Tablets */
+@media screen and (min-width:767px) and (max-width:1023px){
+    .conteudo{
+        margin-top: 130px;
+    }
+    .escolha{
+        width: 96%;
+        margin: 0 auto;
+    }
+    .escolha h2{
+        font-family: "Dancing Script", cursive;
+        font-style: normal;
+        font-size: 30px;
+        font-weight: bold;
+        cursor: pointer;
+        text-align: center;
+    }
+    .escolha p{
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .escolha .escolhasDeprod{
+        background-color: orange;
+        border-radius: 8px;
+        width: 50%;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 10px;
+    }
+    .escolha1{
+        width: 41%;
+    }
+    .escolha2{
+        width: 41%;
+    }
+    .escolhasDeprod .escolha1 select{
+        width: 150px;
+        border: 1px solid orange;
+        padding: 5px 10px;
+        border-radius: 8px;
+    }
+    .escolhasDeprod .escolha2 select{
+        width: 150px;
+        border: 1px solid orange;
+        padding: 5px 10px;
+        border-radius: 8px;
+    }    
+}
+
+/* Responsividade para telas de celulares */
+@media screen and (min-width:300px) and (max-width:767px){
+    .conteudo{
+        margin-top: 150px;
+    }
+    .escolha{
+        width: 96%;
+        margin: 0 auto;
+    }
+    .escolha h2{
+        font-family: "Dancing Script", cursive;
+        font-style: normal;
+        font-size: 30px;
+        font-weight: bold;
+        cursor: pointer;
+        text-align: center;
+    }
+    .escolha p{
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .escolha .escolhasDeprod{
+        background-color: orange;
+        border-radius: 8px;
+        width: 80%;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 10px;
+    }
+    .escolha1{
+        width: 41%;
+    }
+    .escolha2{
+        width: 41%;
+    }
+    .escolhasDeprod .escolha1 select{
+        width: 125px;
+        border: 1px solid orange;
+        padding: 5px 10px;
+        border-radius: 8px;
+    }
+    .escolhasDeprod .escolha2 select{
+        width: 125px;
+        border: 1px solid orange;
+        padding: 5px 10px;
+        border-radius: 8px;
+    }    
+}
